@@ -603,9 +603,9 @@
         </Field>
       </Fields>
       <Alias>{var:Dossier}.XRMWMACPAR00</Alias>
-      <Top>149</Top>
+      <Top>181</Top>
       <Left>432</Left>
-      <Height>465</Height>
+      <Height>499</Height>
       <Width>223</Width>
     </Table>
     <Table Name="{var:Dossier}.XRMWMACPAR01">
