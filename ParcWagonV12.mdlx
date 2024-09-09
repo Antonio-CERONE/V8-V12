@@ -1,0 +1,4692 @@
+<Model ID="8699551d-8cdc-4591-8b90-1a628a36f0c0" Type="Model" Name="ParcWagonV12">
+  <Partial>
+    <Description>Sans Tableau de Calcul des Charges</Description>
+    <IsVerrouilled>0</IsVerrouilled>
+    <IsIncludeETLSource>0</IsIncludeETLSource>
+    <IsLoading>1</IsLoading>
+    <IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_1</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_2</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_3</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_4</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_5</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_6</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_7</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_8</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_9</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_10</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_11</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_12</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_13</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_14</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_15</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_16</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_17</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_18</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_19</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_20</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_21</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_22</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_23</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_24</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_25</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_26</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_27</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_28</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_29</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_30</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_31</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_32</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_33</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_34</Partial.IndexNames>
+      <Partial.IndexNames>PARCWAGON_V12_35</Partial.IndexNames>
+    </IndexNames>
+    <TableName>PARCWAGON_V12_</TableName>
+    <IsCommercialItem>62Syolq1Fub2ySEjnj1XD2uHMjscReKy</IsCommercialItem>
+    <ExtensionName></ExtensionName>
+    <HeritageLevel>0</HeritageLevel>
+    <Obsolescence />
+  </Partial>
+  <DetailsDernierETL>
+    <NombrebLigneAjouted>21819</NombrebLigneAjouted>
+  </DetailsDernierETL>
+  <IsAutoNaming>0</IsAutoNaming>
+  <TableName>PARCWAGON_V12_</TableName>
+  <IsKeepIndex>0</IsKeepIndex>
+  <IsTimeOutConnexion>1</IsTimeOutConnexion>
+  <IsCloseConnexion>0</IsCloseConnexion>
+  <IsAcceptError>0</IsAcceptError>
+  <ETLFilter ID="insertionModefilter">
+    <LangueFormule>0</LangueFormule>
+  </ETLFilter>
+  <TimeOutDataBaseRequest>00:02:00</TimeOutDataBaseRequest>
+  <Description>Sans Tableau de Calcul des Charges</Description>
+  <Tables>
+    <Table Name="{var:Dossier}.XRMWMACPAR00">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_01">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="SALFCY_0" ID="TCSALFCY_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>SALFCY_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACTYP_0" ID="TCMACTYP_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACTYP_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ITMREF_0" ID="TCITMREF_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ITMREF_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="SERNUM_0" ID="TCSERNUM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>SERNUM_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="DISENAFLG_0" ID="TCDISENAFLG_01">
+          <Qualif>0</Qualif>
+          <SQLName>DISENAFLG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NBB_0" ID="TCNBB_01">
+          <Qualif>0</Qualif>
+          <SQLName>NBB_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NEXTB_0" ID="TCNEXTB_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NEXTB_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NBC_0" ID="TCNBC_01">
+          <Qualif>0</Qualif>
+          <SQLName>NBC_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_0" ID="TCBPCLOC_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_1" ID="TCBPCLOC_11">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_1</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_2" ID="TCBPCLOC_21">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_2</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_3" ID="TCBPCLOC_31">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_3</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_4" ID="TCBPCLOC_41">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_4</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_5" ID="TCBPCLOC_51">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_5</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_6" ID="TCBPCLOC_61">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_6</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_7" ID="TCBPCLOC_71">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_7</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_8" ID="TCBPCLOC_81">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_8</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_9" ID="TCBPCLOC_91">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_9</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_10" ID="TCBPCLOC_101">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_10</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_11" ID="TCBPCLOC_111">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_11</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_12" ID="TCBPCLOC_121">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_12</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_13" ID="TCBPCLOC_131">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_13</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_14" ID="TCBPCLOC_141">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_14</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_15" ID="TCBPCLOC_151">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_15</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_16" ID="TCBPCLOC_161">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_16</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_17" ID="TCBPCLOC_171">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_17</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_18" ID="TCBPCLOC_181">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_18</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCLOC_19" ID="TCBPCLOC_191">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCLOC_19</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="OBJET_0" ID="TCOBJET_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>OBJET_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="SYST_0" ID="TCSYST_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>SYST_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_0" ID="TCDIE_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_0</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_1" ID="TCDIE_11">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_1</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_2" ID="TCDIE_21">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_2</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_3" ID="TCDIE_31">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_3</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_4" ID="TCDIE_41">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_4</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_5" ID="TCDIE_51">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_5</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_6" ID="TCDIE_61">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_6</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_7" ID="TCDIE_71">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_7</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_8" ID="TCDIE_81">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_8</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_9" ID="TCDIE_91">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_9</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_10" ID="TCDIE_101">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_10</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_11" ID="TCDIE_111">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_11</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_12" ID="TCDIE_121">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_12</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_13" ID="TCDIE_131">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_13</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_14" ID="TCDIE_141">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_14</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_15" ID="TCDIE_151">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_15</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_16" ID="TCDIE_161">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_16</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_17" ID="TCDIE_171">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_17</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_18" ID="TCDIE_181">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_18</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DIE_19" ID="TCDIE_191">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DIE_19</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_0" ID="TCCCE_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_1" ID="TCCCE_11">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_1</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_2" ID="TCCCE_21">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_2</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_3" ID="TCCCE_31">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_3</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_4" ID="TCCCE_41">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_4</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_5" ID="TCCCE_51">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_5</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_6" ID="TCCCE_61">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_6</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_7" ID="TCCCE_71">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_7</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_8" ID="TCCCE_81">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_8</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_9" ID="TCCCE_91">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_9</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_10" ID="TCCCE_101">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_10</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_11" ID="TCCCE_111">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_11</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_12" ID="TCCCE_121">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_12</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_13" ID="TCCCE_131">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_13</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_14" ID="TCCCE_141">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_14</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_15" ID="TCCCE_151">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_15</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_16" ID="TCCCE_161">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_16</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_17" ID="TCCCE_171">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_17</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_18" ID="TCCCE_181">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_18</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CCE_19" ID="TCCCE_191">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CCE_19</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID1">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMACPAR00</Alias>
+      <Top>181</Top>
+      <Left>432</Left>
+      <Height>499</Height>
+      <Width>223</Width>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWMACPAR01">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_02">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="YGE01_0" ID="TCYGE01_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YGE01_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE02_0" ID="TCYGE02_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YGE02_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE03_0" ID="TCYGE03_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YGE03_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE04_0" ID="TCYGE04_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YGE04_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE05_0" ID="TCYGE05_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YGE05_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE06_0" ID="TCYGE06_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YGE06_0</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE07_0" ID="TCYGE07_01">
+          <FieldType>2</FieldType>
+          <SQLName>YGE07_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE08_0" ID="TCYGE08_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YGE08_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE09_0" ID="TCYGE09_01">
+          <FieldType>2</FieldType>
+          <SQLName>YGE09_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YGE10_0" ID="TCYGE10_01">
+          <FieldType>2</FieldType>
+          <SQLName>YGE10_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MPLSPE_0" ID="TCMPLSPE_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MPLSPE_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NUMDC_0" ID="TCNUMDC_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NUMDC_0</SQLName>
+          <Size>12</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YPE06_0" ID="TCYPE06_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YPE06_0</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA01NEW_0" ID="TCYSA01NEW_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA01NEW_0</SQLName>
+          <Size>12</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA01OLD_0" ID="TCYSA01OLD_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA01OLD_0</SQLName>
+          <Size>12</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA04_0" ID="TCYSA04_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA04_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA07_0" ID="TCYSA07_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA07_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA09_0" ID="TCYSA09_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA09_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA35_0" ID="TCYSA35_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA35_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA39_0" ID="TCYSA39_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA39_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA40_0" ID="TCYSA40_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA40_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA41_0" ID="TCYSA41_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA41_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG01_0" ID="TCYSG01_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG01_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG02_0" ID="TCYSG02_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG02_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG03_0" ID="TCYSG03_01">
+          <Qualif>0</Qualif>
+          <SQLName>YSG03_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG04_0" ID="TCYSG04_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG04_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG05_0" ID="TCYSG05_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG05_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG06_0" ID="TCYSG06_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG06_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG07_0" ID="TCYSG07_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG07_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG08_0" ID="TCYSG08_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG08_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG09_0" ID="TCYSG09_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG09_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG10_0" ID="TCYSG10_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG10_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG11_0" ID="TCYSG11_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG11_0</SQLName>
+          <Size>1</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG12_0" ID="TCYSG12_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG12_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG13_0" ID="TCYSG13_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG13_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG14_0" ID="TCYSG14_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG14_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG15_0" ID="TCYSG15_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG15_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG16_0" ID="TCYSG16_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG16_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG17_0" ID="TCYSG17_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG17_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG18_0" ID="TCYSG18_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG18_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG19_0" ID="TCYSG19_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG19_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG20_0" ID="TCYSG20_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG20_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG21_0" ID="TCYSG21_01">
+          <Qualif>0</Qualif>
+          <SQLName>YSG21_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG25_0" ID="TCYSG25_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG25_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG26_0" ID="TCYSG26_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG26_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG27_0" ID="TCYSG27_01">
+          <Qualif>0</Qualif>
+          <SQLName>YSG27_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG30_0" ID="TCYSG30_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG30_0</SQLName>
+          <Size>80</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG31_0" ID="TCYSG31_01">
+          <Qualif>0</Qualif>
+          <SQLName>YSG31_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG32_0" ID="TCYSG32_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG32_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG33_0" ID="TCYSG33_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG33_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG36_0" ID="TCYSG36_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG36_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG37_0" ID="TCYSG37_01">
+          <Qualif>0</Qualif>
+          <SQLName>YSG37_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA02_0" ID="TCYTA02_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA02_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA03_0" ID="TCYTA03_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA03_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA05_0" ID="TCYTA05_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA05_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA08_0" ID="TCYTA08_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA08_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA19_0" ID="TCYTA19_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA19_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTM21_0" ID="TCYTM21_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTM21_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="TRFVPIBLC_0" ID="TCTRFVPIBLC_01">
+          <Qualif>0</Qualif>
+          <SQLName>TRFVPIBLC_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="RETGES_0" ID="TCRETGES_01">
+          <Qualif>0</Qualif>
+          <SQLName>RETGES_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="TKAN_0" ID="TCTKAN_01">
+          <FieldType>2</FieldType>
+          <SQLName>TKAN_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_02">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_02">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA18_0" ID="TCYTA18_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA18_0</SQLName>
+          <Size>80</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL17_0" ID="TCYTL17_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL17_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA06_0" ID="TCYTA06_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA06_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID2">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMACPAR01</Alias>
+      <Top>20</Top>
+      <Left>20</Left>
+      <Height>513</Height>
+      <Width>260</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWMACPAR02">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_03">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_03">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="MATTEX_0" ID="TCMATTEX_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MATTEX_0</SQLName>
+          <Size>17</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YMD01_0" ID="TCYMD01_01">
+          <Qualif>0</Qualif>
+          <SQLName>YMD01_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="SRCIMP_0" ID="TCSRCIMP_01">
+          <Qualif>0</Qualif>
+          <SQLName>SRCIMP_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTE17VISU_0" ID="TCYTE17VISU_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTE17VISU_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL06_0" ID="TCYTL06_01">
+          <Qualif>0</Qualif>
+          <SQLName>YTL06_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BUTREVN_0" ID="TCBUTREVN_01">
+          <Qualif>0</Qualif>
+          <SQLName>BUTREVN_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CATCOMM_0" ID="TCCATCOMM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CATCOMM_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CATGEST_0" ID="TCCATGEST_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CATGEST_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CATTECH_0" ID="TCCATTECH_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CATTECH_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CORRECT_0" ID="TCCORRECT_01">
+          <Qualif>0</Qualif>
+          <SQLName>CORRECT_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DETFW_0" ID="TCDETFW_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DETFW_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="EIN_0" ID="TCEIN_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>EIN_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="EXPFW_0" ID="TCEXPFW_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>EXPFW_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="REFFW_0" ID="TCREFFW_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>REFFW_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="SYST_0" ID="TCSYST_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>SYST_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_03">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_03">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_03">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_03">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_03">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID3">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMACPAR02</Alias>
+      <Top>50</Top>
+      <Left>19</Left>
+      <Width>263</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWMACPAR03">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_04">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_04">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="ZRSRD01_0" ID="TCZRSRD01_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD01_0</SQLName>
+          <Size>24</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRD02_0" ID="TCZRSRD02_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD02_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRD03_0" ID="TCZRSRD03_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD03_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRD04_0" ID="TCZRSRD04_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD04_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRD05_0" ID="TCZRSRD05_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD05_0</SQLName>
+          <Size>50</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRD06_0" ID="TCZRSRD06_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD06_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRD07_0" ID="TCZRSRD07_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD07_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRD08_0" ID="TCZRSRD08_01">
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRD08_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRDFLG_0" ID="TCZRSRDFLG_01">
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRDFLG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRDMAJ_0" ID="TCZRSRDMAJ_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRDMAJ_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZRSRDREM_0" ID="TCZRSRDREM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZRSRDREM_0</SQLName>
+          <Size>250</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZACTFER_0" ID="TCZACTFER_01">
+          <Qualif>0</Qualif>
+          <SQLName>ZACTFER_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZDATACCFER_0" ID="TCZDATACCFER_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZDATACCFER_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZDATDECFER_0" ID="TCZDATDECFER_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZDATDECFER_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZDATFER_0" ID="TCZDATFER_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZDATFER_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZFLGNONEXC_0" ID="TCZFLGNONEXC_01">
+          <Qualif>0</Qualif>
+          <SQLName>ZFLGNONEXC_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZREFDOSFER_0" ID="TCZREFDOSFER_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZREFDOSFER_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_04">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_04">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_04">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_04">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_04">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID4">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMACPAR03</Alias>
+      <Top>77</Top>
+      <Left>17</Left>
+      <Height>327</Height>
+      <Width>265</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWMACPAR04">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_05">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_05">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="STATITM_0" ID="TCSTATITM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>STATITM_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_05">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_05">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_05">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_05">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_05">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID5">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMACPAR04</Alias>
+      <Top>110</Top>
+      <Left>16</Left>
+      <Width>268</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWMACMIL01">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_06">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_06">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="WFLGKM_0" ID="TCWFLGKM_01">
+          <Qualif>0</Qualif>
+          <SQLName>WFLGKM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="WINDCOMPL_0" ID="TCWINDCOMPL_01">
+          <FieldType>2</FieldType>
+          <SQLName>WINDCOMPL_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="WLASTBAL_0" ID="TCWLASTBAL_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>WLASTBAL_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="WMILEAGE_0" ID="TCWMILEAGE_01">
+          <FieldType>2</FieldType>
+          <SQLName>WMILEAGE_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="WMOUNTBAL_0" ID="TCWMOUNTBAL_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>WMOUNTBAL_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NBBOX_0" ID="TCNBBOX_01">
+          <FieldType>2</FieldType>
+          <SQLName>NBBOX_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NEXKDAT_0" ID="TCNEXKDAT_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NEXKDAT_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_06">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_06">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_06">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_06">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_06">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XPMA_0" ID="TCXPMA_01">
+          <FieldType>2</FieldType>
+          <SQLName>XPMA_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XLOG_0" ID="TCXLOG_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XLOG_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID6">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMACMIL01</Alias>
+      <Top>290</Top>
+      <Left>806</Left>
+      <Height>396</Height>
+      <Width>235</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWMACIMM00">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_07">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA01VID_0" ID="TCYSA01VID_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA01VID_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_07">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="YHI01_0" ID="TCYHI01_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YHI01_0</SQLName>
+          <Size>11</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YHI02_0" ID="TCYHI02_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YHI02_0</SQLName>
+          <Size>1</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YHI03_0" ID="TCYHI03_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YHI03_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YHI04_0" ID="TCYHI04_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YHI04_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YHI00_0" ID="TCYHI00_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YHI00_0</SQLName>
+          <Size>12</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="FIRSTIMM_0" ID="TCFIRSTIMM_01">
+          <Qualif>0</Qualif>
+          <SQLName>FIRSTIMM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="LEV_0" ID="TCLEV_01">
+          <Qualif>0</Qualif>
+          <SQLName>LEV_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="ORDRE_0" ID="TCORDRE_01">
+          <Qualif>0</Qualif>
+          <SQLName>ORDRE_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_07">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_07">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_07">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_07">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_07">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID7">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMACIMM00</Alias>
+      <Top>75</Top>
+      <Left>801</Left>
+      <Width>233</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWCONMAC">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_08">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CONREV_0" ID="TCCONREV_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CONREV_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="ENAFLG_0" ID="TCENAFLG_01">
+          <Qualif>0</Qualif>
+          <SQLName>ENAFLG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_08">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="BEGMSCA_0" ID="TCBEGMSCA_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BEGMSCA_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="ENDMSCA_0" ID="TCENDMSCA_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ENDMSCA_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="COPHID_0" ID="TCCOPHID_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>COPHID_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="COPHSTA_0" ID="TCCOPHSTA_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>COPHSTA_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSA01VID_0" ID="TCYSA01VID_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSA01VID_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ITMREF_0" ID="TCITMREF_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ITMREF_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACLEV_0" ID="TCMACLEV_01">
+          <Qualif>0</Qualif>
+          <SQLName>MACLEV_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="NUMTAUX_0" ID="TCNUMTAUX_01">
+          <Qualif>0</Qualif>
+          <SQLName>NUMTAUX_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_08">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_08">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_08">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_08">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_08">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPCUSR_0" ID="TCBPCUSR_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPCUSR_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BPADDUSR_0" ID="TCBPADDUSR_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>BPADDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="COMMENT_0" ID="TCCOMMENT_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>COMMENT_0</SQLName>
+          <Size>240</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ITMDES_0" ID="TCITMDES_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ITMDES_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MAD_0" ID="TCMAD_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MAD_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UOM_0" ID="TCUOM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UOM_0</SQLName>
+          <Size>3</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="QTY_0" ID="TCQTY_01">
+          <FieldType>2</FieldType>
+          <SQLName>QTY_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="REST_0" ID="TCREST_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>REST_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YVPCEXCLU_0" ID="TCYVPCEXCLU_01">
+          <Qualif>0</Qualif>
+          <SQLName>YVPCEXCLU_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID8">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWCONMAC</Alias>
+      <Top>147</Top>
+      <Left>803</Left>
+      <Width>232</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.WXRMWMACXON0">
+      <Fields>
+        <Field Name="MACNUM_0" ID="TCMACNUM_09">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG28_0" ID="TCYSG28_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YSG28_0</SQLName>
+          <Size>40</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YSG29_0" ID="TCYSG29_01">
+          <FieldType>2</FieldType>
+          <SQLName>YSG29_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CONREV_0" ID="TCCONREV_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CONREV_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="COPHID_0" ID="TCCOPHID_02">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>COPHID_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="LASTBPC_0" ID="TCLASTBPC_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>LASTBPC_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NUMB_0" ID="TCNUMB_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NUMB_0</SQLName>
+          <Size>12</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="BFLG_0" ID="TCBFLG_01">
+          <Qualif>0</Qualif>
+          <SQLName>BFLG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.WXRMWMACXON0</Alias>
+      <Top>227</Top>
+      <Left>802</Left>
+      <Width>236</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.WXRMWPRGDAT">
+      <Fields>
+        <Field Name="MACNUM_0" ID="TCMACNUM_010">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DATENEXTREV_0" ID="TCDATENEXTREV_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>DATENEXTREV_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="SELECTION_0" ID="TCSELECTION_01">
+          <Qualif>0</Qualif>
+          <SQLName>SELECTION_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="COM_0" ID="TCCOM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>COM_0</SQLName>
+          <Size>1</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.WXRMWPRGDAT</Alias>
+      <Top>359</Top>
+      <Left>802</Left>
+      <Width>237</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMW1TSP01">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_010">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_011">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="YTA13A_0" ID="TCYTA13A_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA13A_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA20_0" ID="TCYTA20_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA20_0</SQLName>
+          <Size>240</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA01_0" ID="TCXTA01_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA01_0</SQLName>
+          <Size>80</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA02_0" ID="TCXTA02_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA02_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL15_0" ID="TCYTL15_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL15_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA42_0" ID="TCYTA42_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA42_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTD87_0" ID="TCYTD87_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTD87_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA45_0" ID="TCYTA45_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA45_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA43_0" ID="TCYTA43_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA43_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA44_0" ID="TCYTA44_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA44_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA03_0" ID="TCXTA03_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA03_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL08_0" ID="TCYTL08_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL08_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL01_0" ID="TCYTL01_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL01_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL02_0" ID="TCYTL02_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL02_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA16_0" ID="TCYTA16_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA16_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA17_0" ID="TCYTA17_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA17_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL05_0" ID="TCYTL05_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL05_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_010">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_010">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_010">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_010">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_010">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA14_0" ID="TCYTA14_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA14_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XAIO_0" ID="TCXAIO_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XAIO_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA36_0" ID="TCYTA36_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA36_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA02B_0" ID="TCYTA02B_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA02B_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA13B_0" ID="TCYTA13B_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA13B_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA13C_0" ID="TCYTA13C_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA13C_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL29_0" ID="TCYTL29_01">
+          <Qualif>0</Qualif>
+          <SQLName>YTL29_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA12_0" ID="TCYTA12_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA12_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL03_0" ID="TCYTL03_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL03_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL04_0" ID="TCYTL04_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL04_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL07_0" ID="TCYTL07_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL07_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID10">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMW1TSP01</Alias>
+      <Top>215</Top>
+      <Left>120</Left>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMW1TSP02">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_011">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_012">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="YTA68_0" ID="TCYTA68_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA68_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA66_0" ID="TCYTA66_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA66_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA67A_0" ID="TCYTA67A_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA67A_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA65_0" ID="TCYTA65_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA65_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA64_0" ID="TCYTA64_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA64_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA78_0" ID="TCYTA78_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA78_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA61_0" ID="TCYTA61_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA61_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA04_0" ID="TCXTA04_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA04_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA05_0" ID="TCXTA05_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA05_0</SQLName>
+          <Size>80</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA06_0" ID="TCXTA06_01">
+          <FieldType>2</FieldType>
+          <SQLName>XTA06_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA07_0" ID="TCXTA07_01">
+          <FieldType>2</FieldType>
+          <SQLName>XTA07_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA67B_0" ID="TCYTA67B_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA67B_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA08_0" ID="TCXTA08_01">
+          <FieldType>2</FieldType>
+          <SQLName>XTA08_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTB47_0" ID="TCYTB47_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTB47_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA09_0" ID="TCXTA09_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA09_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA10_0" ID="TCXTA10_01">
+          <FieldType>2</FieldType>
+          <SQLName>XTA10_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA11_0" ID="TCXTA11_01">
+          <FieldType>2</FieldType>
+          <SQLName>XTA11_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA70_0" ID="TCYTA70_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA70_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA71_0" ID="TCYTA71_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA71_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA72_0" ID="TCYTA72_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA72_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA74_0" ID="TCYTA74_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA74_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA75_0" ID="TCYTA75_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTA75_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA50_0" ID="TCYTA50_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA50_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA51_0" ID="TCYTA51_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA51_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA12_0" ID="TCXTA12_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA12_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA59_0" ID="TCYTA59_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA59_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA52_0" ID="TCYTA52_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA52_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA13_0" ID="TCXTA13_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA13_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA62_0" ID="TCYTA62_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA62_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA73_0" ID="TCYTA73_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA73_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA14_0" ID="TCXTA14_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA14_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL14_0" ID="TCYTL14_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL14_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA15_0" ID="TCXTA15_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA15_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTB40_0" ID="TCYTB40_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTB40_0</SQLName>
+          <Size>15</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA16_0" ID="TCXTA16_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA16_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA17_0" ID="TCXTA17_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA17_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA18_0" ID="TCXTA18_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA18_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA19_0" ID="TCXTA19_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA19_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA20_0" ID="TCXTA20_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA20_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA21_0" ID="TCXTA21_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA21_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTA22_0" ID="TCXTA22_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTA22_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL18_0" ID="TCYTL18_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL18_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="XTL181D_0" ID="TCXTL181D_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>XTL181D_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_011">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_011">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_011">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_011">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_011">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA54_0" ID="TCYTA54_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA54_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA55_0" ID="TCYTA55_01">
+          <Qualif>0</Qualif>
+          <SQLName>YTA55_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA57_0" ID="TCYTA57_01">
+          <Qualif>0</Qualif>
+          <SQLName>YTA57_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA58_0" ID="TCYTA58_01">
+          <Qualif>0</Qualif>
+          <SQLName>YTA58_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTL19_0" ID="TCYTL19_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTL19_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTB41_0" ID="TCYTB41_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTB41_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTB46_0" ID="TCYTB46_01">
+          <FieldType>2</FieldType>
+          <SQLName>YTB46_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID11">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMW1TSP02</Alias>
+      <Top>242</Top>
+      <Left>121</Left>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMW1TSP03">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_012">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_013">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="YTA47_0" ID="TCYTA47_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA47_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_012">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_012">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_012">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_012">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_012">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID12">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMW1TSP03</Alias>
+      <Top>273</Top>
+      <Left>121</Left>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMW1TSP08">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_013">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="MACNUM_0" ID="TCMACNUM_014">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="YTA48_0" ID="TCYTA48_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA48_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA49_0" ID="TCYTA49_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA49_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTA53_0" ID="TCYTA53_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTA53_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_013">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_013">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_013">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_013">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_013">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID13">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMW1TSP08</Alias>
+      <Top>368</Top>
+      <Left>123</Left>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.WXRMWMGMAOH">
+      <Fields>
+        <Field Name="MACNUM_0" ID="TCMACNUM_015">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>MACNUM_0</SQLName>
+          <Size>6</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CODLASREVINF_0" ID="TCCODLASREVINF_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODLASREVINF_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="LASTREVINF_0" ID="TCLASTREVINF_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>LASTREVINF_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ATLLASREVINF_0" ID="TCATLLASREVINF_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ATLLASREVINF_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CODLASREVSUP_0" ID="TCCODLASREVSUP_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODLASREVSUP_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="LASTREVSUP_0" ID="TCLASTREVSUP_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>LASTREVSUP_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ATLLASREVSUP_0" ID="TCATLLASREVSUP_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ATLLASREVSUP_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="IDENT3_INF_0" ID="TCIDENT3_INF_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>IDENT3_INF_0</SQLName>
+          <Size>50</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CODNEXREVINF_0" ID="TCCODNEXREVINF_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODNEXREVINF_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NEXTREVINF_0" ID="TCNEXTREVINF_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NEXTREVINF_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ATLNEXREVINF_0" ID="TCATLNEXREVINF_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ATLNEXREVINF_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="IDENT3_SUP_0" ID="TCIDENT3_SUP_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>IDENT3_SUP_0</SQLName>
+          <Size>50</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CODNEXREVSUP_0" ID="TCCODNEXREVSUP_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODNEXREVSUP_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NEXTREVSUP_0" ID="TCNEXTREVSUP_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NEXTREVSUP_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ATLNEXREVSUP_0" ID="TCATLNEXREVSUP_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ATLNEXREVSUP_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CODNEXVISCLI_0" ID="TCCODNEXVISCLI_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODNEXVISCLI_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NEXTVISCLI_0" ID="TCNEXTVISCLI_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NEXTVISCLI_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ATLNEXVISCLI_0" ID="TCATLNEXVISCLI_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ATLNEXVISCLI_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CODNEXVISWAG_0" ID="TCCODNEXVISWAG_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODNEXVISWAG_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NEXTVISWAG_0" ID="TCNEXTVISWAG_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NEXTVISWAG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ATLNEXVISWAG_0" ID="TCATLNEXVISWAG_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ATLNEXVISWAG_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CODNEXTPROG_0" ID="TCCODNEXTPROG_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODNEXTPROG_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NEXTPROG_0" ID="TCNEXTPROG_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>NEXTPROG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ATLNEXTPROG_0" ID="TCATLNEXTPROG_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ATLNEXTPROG_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.WXRMWMGMAOH</Alias>
+      <Top>423</Top>
+      <Left>802</Left>
+      <Width>236</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.XRMWMPL">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_014">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YMPNUM_0" ID="TCYMPNUM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YMPNUM_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="REVNUM_0" ID="TCREVNUM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>REVNUM_0</SQLName>
+          <Size>1</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTRTSPE_0" ID="TCYTRTSPE_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTRTSPE_0</SQLName>
+          <Size>30</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_014">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDAT_0" ID="TCCREDAT_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDAT_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_014">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDAT_0" ID="TCUPDDAT_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDAT_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CRETIM_0" ID="TCCRETIM_01">
+          <Qualif>0</Qualif>
+          <SQLName>CRETIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDTIM_0" ID="TCUPDTIM_01">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZFLGSUR_0" ID="TCZFLGSUR_01">
+          <Qualif>0</Qualif>
+          <SQLName>ZFLGSUR_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YTE120_0" ID="TCYTE120_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YTE120_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_014">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_014">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_014">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YMPVPI_0" ID="TCYMPVPI_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YMPVPI_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YENAFLG_0" ID="TCYENAFLG_01">
+          <Qualif>0</Qualif>
+          <SQLName>YENAFLG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YMPLIB_0" ID="TCYMPLIB_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YMPLIB_0</SQLName>
+          <Size>100</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YCOMM_0" ID="TCYCOMM_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YCOMM_0</SQLName>
+          <Size>2147483647</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID14">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.XRMWMPL</Alias>
+      <Top>378</Top>
+      <Left>1097</Left>
+      <Width>212</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+    <Table Name="{var:Dossier}.YATABDIV">
+      <Fields>
+        <Field Name="UPDTICK_0" ID="TCUPDTICK_015">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTICK_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="NUMTAB_0" ID="TCNUMTAB_01">
+          <Qualif>0</Qualif>
+          <SQLName>NUMTAB_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="CODE_0" ID="TCCODE_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CODE_0</SQLName>
+          <Size>7</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="A01_0" ID="TCA01_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A01_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A02_0" ID="TCA02_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A02_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A03_0" ID="TCA03_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A03_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A04_0" ID="TCA04_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A04_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A05_0" ID="TCA05_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A05_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A06_0" ID="TCA06_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A06_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A07_0" ID="TCA07_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A07_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A08_0" ID="TCA08_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A08_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A09_0" ID="TCA09_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A09_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="A10_0" ID="TCA10_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>A10_0</SQLName>
+          <Size>20</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="N01_0" ID="TCN01_01">
+          <FieldType>2</FieldType>
+          <SQLName>N01_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="N02_0" ID="TCN02_01">
+          <FieldType>2</FieldType>
+          <SQLName>N02_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="N03_0" ID="TCN03_01">
+          <FieldType>2</FieldType>
+          <SQLName>N03_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="N04_0" ID="TCN04_01">
+          <FieldType>2</FieldType>
+          <SQLName>N04_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="N05_0" ID="TCN05_01">
+          <FieldType>2</FieldType>
+          <SQLName>N05_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="DEFVAL_0" ID="TCDEFVAL_01">
+          <Qualif>0</Qualif>
+          <SQLName>DEFVAL_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDAT_0" ID="TCUPDDAT_02">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDAT_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDAT_0" ID="TCCREDAT_02">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDAT_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDUSR_0" ID="TCUPDUSR_015">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREUSR_0" ID="TCCREUSR_015">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CRETIM_0" ID="TCCRETIM_02">
+          <Qualif>0</Qualif>
+          <SQLName>CRETIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDTIM_0" ID="TCUPDTIM_02">
+          <Qualif>0</Qualif>
+          <SQLName>UPDTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ENAFLG_0" ID="TCENAFLG_02">
+          <Qualif>0</Qualif>
+          <SQLName>ENAFLG_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YVALUSR_0" ID="TCYVALUSR_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YVALUSR_0</SQLName>
+          <Size>5</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YVALDAT_0" ID="TCYVALDAT_01">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YVALDAT_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YPORTAIL_0" ID="TCYPORTAIL_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YPORTAIL_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="SANSVAL_0" ID="TCSANSVAL_01">
+          <Qualif>0</Qualif>
+          <SQLName>SANSVAL_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="ZCODRSRD_0" ID="TCZCODRSRD_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>ZCODRSRD_0</SQLName>
+          <Size>10</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="CREDATTIM_0" ID="TCCREDATTIM_015">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>CREDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="UPDDATTIM_0" ID="TCUPDDATTIM_015">
+          <FieldType>5</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>UPDDATTIM_0</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="AUUID_0" ID="TCAUUID_015">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>AUUID_0</SQLName>
+          <Size>0</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+        </Field>
+        <Field Name="YCODEXT_0" ID="TCYCODEXT_01">
+          <FieldType>0</FieldType>
+          <Qualif>0</Qualif>
+          <SQLName>YCODEXT_0</SQLName>
+          <Size>50</Size>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsIndex>1</IsIndex>
+        </Field>
+        <Field Name="ROWID" ID="TCROWID15">
+          <FieldType>2</FieldType>
+          <SQLName>ROWID</SQLName>
+          <QualityNotCompliantAction>1</QualityNotCompliantAction>
+          <IsPrimaryKey>1</IsPrimaryKey>
+        </Field>
+      </Fields>
+      <Alias>{var:Dossier}.YATABDIV</Alias>
+      <Top>308</Top>
+      <Left>150</Left>
+      <Width>210</Width>
+      <IsOpen>0</IsOpen>
+    </Table>
+  </Tables>
+  <Joins>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_02</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWMACPAR01</Table2Id>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_03</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWMACPAR02</Table2Id>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_05</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWMACPAR04</Table2Id>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_04</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWMACPAR03</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_06</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWMACMIL01</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+        <FiltersSupp ID="RFFILTRE1">
+          <ParentGroup>Root</ParentGroup>
+          <Value1>
+            <Value1>0</Value1>
+          </Value1>
+          <FormulaByName>[TCLEV_01|({var:Dossier}.XRMWMACIMM00).(LEV_0)] = 0</FormulaByName>
+          <LangueFormule>0</LangueFormule>
+          <Formula>[TCLEV_01] = 0</Formula>
+          <FieldAutomatized>TCLEV_01</FieldAutomatized>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_07</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWMACIMM00</Table2Id>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+        <FiltersSupp ID="RFFILTRE1">
+          <ParentGroup>Root</ParentGroup>
+          <Value1>
+            <Value1>0</Value1>
+          </Value1>
+          <FormulaByName>[TCMACLEV_01|({var:Dossier}.XRMWCONMAC).(MACLEV_0)] = 0</FormulaByName>
+          <LangueFormule>0</LangueFormule>
+          <Formula>[TCMACLEV_01] = 0</Formula>
+          <FieldAutomatized>TCMACLEV_01</FieldAutomatized>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_08</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWCONMAC</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_09</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.WXRMWMACXON0</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_010</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.WXRMWPRGDAT</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_011</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMW1TSP01</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_012</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMW1TSP02</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_013</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMW1TSP03</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_014</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.XRMW1TSP08</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_01</Field1Id>
+      <Field2Id>TCMACNUM_015</Field2Id>
+      <Table1Id>{var:Dossier}.XRMWMACPAR00</Table1Id>
+      <Table2Id>{var:Dossier}.WXRMWMGMAOH</Table2Id>
+      <TypeJoin>1</TypeJoin>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+        <FiltersSupp ID="RFFILTRE1">
+          <ParentGroup>Root</ParentGroup>
+          <Value1>
+            <Value1>0</Value1>
+          </Value1>
+          <FormulaByName>[TCYENAFLG_01|({var:Dossier}.XRMWMPL).(YENAFLG_0)] = 0</FormulaByName>
+          <LangueFormule>0</LangueFormule>
+          <Formula>[TCYENAFLG_01] = 0</Formula>
+          <FieldAutomatized>TCYENAFLG_01</FieldAutomatized>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCMACNUM_015</Field1Id>
+      <Field2Id>TCYMPNUM_01</Field2Id>
+      <Table1Id>{var:Dossier}.WXRMWMGMAOH</Table1Id>
+      <Table2Id>{var:Dossier}.XRMWMPL</Table2Id>
+    </Join>
+    <Join>
+      <FiltersSupp>
+        <FiltersSupp ID="Root">
+          <FilterGroup>FilterGroup</FilterGroup>
+        </FiltersSupp>
+        <FiltersSupp ID="RFFILTRE1">
+          <ParentGroup>Root</ParentGroup>
+          <Value1>
+            <Value1>1102</Value1>
+          </Value1>
+          <FormulaByName>[TCNUMTAB_01|({var:Dossier}.YATABDIV).(NUMTAB_0)] = 1102</FormulaByName>
+          <LangueFormule>0</LangueFormule>
+          <Formula>[TCNUMTAB_01] = 1102</Formula>
+          <FieldAutomatized>TCNUMTAB_01</FieldAutomatized>
+        </FiltersSupp>
+      </FiltersSupp>
+      <Field1Id>TCYTA47_01</Field1Id>
+      <Field2Id>TCCODE_01</Field2Id>
+      <Table1Id>{var:Dossier}.XRMW1TSP03</Table1Id>
+      <Table2Id>{var:Dossier}.YATABDIV</Table2Id>
+    </Join>
+  </Joins>
+  <DestFields>
+    <Field Name="N° de série" ID="MCSERNUM_01">
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>SERNUM_0</SQLName>
+      <Size>6</Size>
+      <FormulaText>
+        <FormulaByName>[TCSERNUM_01|({var:Dossier}.XRMWMACPAR00).(SERNUM_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCSERNUM_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_1</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR00</SourceTableAlias>
+      <SourceFieldId>TCSERNUM_01</SourceFieldId>
+    </Field>
+    <GroupField Name="WAGONS" ID="MCGROUPE11">
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Machine" ID="MCMACNUM_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>MACNUM_0</SQLName>
+      <Size>6</Size>
+      <FormulaText>
+        <FormulaByName>[TCMACNUM_01|({var:Dossier}.XRMWMACPAR00).(MACNUM_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCMACNUM_01]</Formula>
+      </FormulaText>
+      <IndexName>PARCWAGONV12_I</IndexName>
+      <IsPrimaryKey>1</IsPrimaryKey>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR00</SourceTableAlias>
+      <SourceFieldId>TCMACNUM_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_N° Immatriculation" ID="MCYHI00_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>2</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YHI00_0</SQLName>
+      <FormulaText>
+        <FormulaByName>TexteEnNumerique ( [TCYHI00_01|({var:Dossier}.XRMWMACIMM00).(YHI00_0)] )</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>TexteEnNumerique ( [TCYHI00_01] )</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_2</IndexName>
+      <FieldCalcul>1</FieldCalcul>
+      <SourceTableAlias>{var:Dossier}.XRMWMACIMM00</SourceTableAlias>
+    </Field>
+    <Field Name="Wag_Code Type de Wagon" ID="MCYTA03_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA03_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA03_01|({var:Dossier}.XRMWMACPAR01).(YTA03_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA03_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_3</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYTA03_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Catégorie de wagon" ID="MCMACTYP_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>MACTYP_0</SQLName>
+      <Size>5</Size>
+      <FormulaText>
+        <FormulaByName>[TCMACTYP_01|({var:Dossier}.XRMWMACPAR00).(MACTYP_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCMACTYP_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_4</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR00</SourceTableAlias>
+      <SourceFieldId>TCMACTYP_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Pool mat (gérant)" ID="MCYSA04_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSA04_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSA04_01|({var:Dossier}.XRMWMACPAR01).(YSA04_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSA04_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSA04_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Etat du matériel" ID="MCYSA09_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSA09_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSA09_01|({var:Dossier}.XRMWMACPAR01).(YSA09_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSA09_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_5</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSA09_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Constructeur" ID="MCYTA08_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA08_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA08_01|({var:Dossier}.XRMWMACPAR01).(YTA08_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA08_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_6</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYTA08_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Mandataire" ID="MCYSG04_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG04_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG04_01|({var:Dossier}.XRMWMACPAR01).(YSG04_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG04_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_7</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSG04_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Gestionnaire" ID="MCYSG05_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG05_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG05_01|({var:Dossier}.XRMWMACPAR01).(YSG05_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG05_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_8</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSG05_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Détenteur immatric" ID="MCYSG06_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG06_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG06_01|({var:Dossier}.XRMWMACPAR01).(YSG06_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG06_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_9</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSG06_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Exploitant technique" ID="MCYSG07_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG07_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG07_01|({var:Dossier}.XRMWMACPAR01).(YSG07_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG07_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_10</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSG07_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Exploitant commercial" ID="MCYSG08_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG08_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG08_01|({var:Dossier}.XRMWMACPAR01).(YSG08_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG08_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_11</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSG08_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Suivi investissement (CAPEX)" ID="MCYSG17_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG17_0</SQLName>
+      <Size>20</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG17_01|({var:Dossier}.XRMWMACPAR01).(YSG17_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG17_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSG17_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Ref Construction" ID="MCYTA02_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA02_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA02_01|({var:Dossier}.XRMWMACPAR01).(YTA02_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA02_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYTA02_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Date d'entrée sur parc" ID="MCYSG01_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>3</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>12</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG01_0</SQLName>
+      <FormulaText>
+        <FormulaByName>ExtraitDate ( [TCYSG01_01|({var:Dossier}.XRMWMACPAR01).(YSG01_0)] )</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>ExtraitDate ( [TCYSG01_01] )</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_12</IndexName>
+      <FieldCalcul>1</FieldCalcul>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+    </Field>
+    <Field Name="Wag_Date désimmatriculation" ID="MCYSG02_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>3</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>12</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG02_0</SQLName>
+      <FormulaText>
+        <FormulaByName>ExtraitDate ( [TCYSG02_01|({var:Dossier}.XRMWMACPAR01).(YSG02_0)] )</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>ExtraitDate ( [TCYSG02_01] )</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_13</IndexName>
+      <FieldCalcul>1</FieldCalcul>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+    </Field>
+    <Field Name="Date 1ère immatric" ID="MCYTA05_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>3</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>12</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA05_0</SQLName>
+      <FormulaText>
+        <FormulaByName>ExtraitDate ( [TCYTA05_01|({var:Dossier}.XRMWMACPAR01).(YTA05_0)] )</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>ExtraitDate ( [TCYTA05_01] )</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_14</IndexName>
+      <FieldCalcul>1</FieldCalcul>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+    </Field>
+    <Field Name="Wag_Catég gestion" ID="MCCATGEST_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>CATGEST_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCCATGEST_01|({var:Dossier}.XRMWMACPAR02).(CATGEST_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCCATGEST_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR02</SourceTableAlias>
+      <SourceFieldId>TCCATGEST_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Catég Commerciale" ID="MCCATCOMM_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>CATCOMM_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCCATCOMM_01|({var:Dossier}.XRMWMACPAR02).(CATCOMM_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCCATCOMM_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR02</SourceTableAlias>
+      <SourceFieldId>TCCATCOMM_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Etat commercial" ID="MCYSG28_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG28_0</SQLName>
+      <Size>6</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG28_01|({var:Dossier}.WXRMWMACXON0).(YSG28_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG28_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.WXRMWMACXON0</SourceTableAlias>
+      <SourceFieldId>TCYSG28_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Statut" ID="MCSTATITM_01">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>STATITM_0</SQLName>
+      <Size>6</Size>
+      <FormulaText>
+        <FormulaByName>[TCSTATITM_01|({var:Dossier}.XRMWMACPAR04).(STATITM_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCSTATITM_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_15</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR04</SourceTableAlias>
+      <SourceFieldId>TCSTATITM_01</SourceFieldId>
+    </Field>
+    <GroupField Name="GENERALITES" ID="MCGROUPE12">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Pool Essieu" ID="MCYSA41_01">
+      <ParentGroup>MCGROUPE12</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSA41_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSA41_01|({var:Dossier}.XRMWMACPAR01).(YSA41_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSA41_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_16</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSA41_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_PC Origine" ID="MCSALFCY_01">
+      <ParentGroup>MCGROUPE12</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>SALFCY_0</SQLName>
+      <Size>5</Size>
+      <FormulaText>
+        <FormulaByName>[TCSALFCY_01|({var:Dossier}.XRMWMACPAR00).(SALFCY_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCSALFCY_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR00</SourceTableAlias>
+      <SourceFieldId>TCSALFCY_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_ECM" ID="MCYSG33_01">
+      <ParentGroup>MCGROUPE12</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YSG33_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYSG33_01|({var:Dossier}.XRMWMACPAR01).(YSG33_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYSG33_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_17</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR01</SourceTableAlias>
+      <SourceFieldId>TCYSG33_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code RID" ID="MCYTL01_01">
+      <ParentGroup>MCGROUPE12</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTL01_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTL01_01|({var:Dossier}.XRMW1TSP01).(YTL01_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTL01_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_18</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTL01_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Marquage littéral" ID="MCYTL05_01">
+      <ParentGroup>MCGROUPE12</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTL05_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTL05_01|({var:Dossier}.XRMW1TSP01).(YTL05_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTL05_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTL05_01</SourceFieldId>
+    </Field>
+    <GroupField Name="RSRD" ID="MCGROUPE13">
+      <ParentGroup>MCGROUPE12</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Flag RSRD" ID="MCZRSRDFLG_01">
+      <ParentGroup>MCGROUPE13</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>ZRSRDFLG_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCZRSRDFLG_01|({var:Dossier}.XRMWMACPAR03).(ZRSRDFLG_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCZRSRDFLG_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_19</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR03</SourceTableAlias>
+      <SourceFieldId>TCZRSRDFLG_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Mise à jour RSRD" ID="MCZRSRDMAJ_01">
+      <ParentGroup>MCGROUPE13</ParentGroup>
+      <FieldType>3</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>12</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>ZRSRDMAJ_0</SQLName>
+      <FormulaText>
+        <FormulaByName>ExtraitDate ( [TCZRSRDMAJ_01|({var:Dossier}.XRMWMACPAR03).(ZRSRDMAJ_0)] )</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>ExtraitDate ( [TCZRSRDMAJ_01] )</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_20</IndexName>
+      <FieldCalcul>1</FieldCalcul>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR03</SourceTableAlias>
+    </Field>
+    <Field Name="Wag_Commentaire RSRD" ID="MCZRSRDREM_01">
+      <ParentGroup>MCGROUPE13</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>ZRSRDREM_0</SQLName>
+      <Size>250</Size>
+      <FormulaText>
+        <FormulaByName>[TCZRSRDREM_01|({var:Dossier}.XRMWMACPAR03).(ZRSRDREM_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCZRSRDREM_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACPAR03</SourceTableAlias>
+      <SourceFieldId>TCZRSRDREM_01</SourceFieldId>
+    </Field>
+    <GroupField Name="SPECIFICATIONS" ID="MCGROUPE14">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <GroupField Name="FREINS" ID="MCGROUPE15">
+      <ParentGroup>MCGROUPE14</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Valve pesée" ID="MCYTA78_01">
+      <ParentGroup>MCGROUPE15</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA78_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA78_01|({var:Dossier}.XRMW1TSP02).(YTA78_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA78_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_21</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA78_01</SourceFieldId>
+    </Field>
+    <GroupField Name="SEMELLES" ID="MCGROUPE19">
+      <ParentGroup>MCGROUPE15</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Configuration des semelles" ID="MCYTA67A_01">
+      <ParentGroup>MCGROUPE19</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA67A_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA67A_01|({var:Dossier}.XRMW1TSP02).(YTA67A_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA67A_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_22</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA67A_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Type de semelle" ID="MCYTA67B_01">
+      <ParentGroup>MCGROUPE19</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA67B_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA67B_01|({var:Dossier}.XRMW1TSP02).(YTA67B_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA67B_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_23</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA67B_01</SourceFieldId>
+    </Field>
+    <GroupField Name="DISTRIBUTEURS" ID="MCGROUPE20">
+      <ParentGroup>MCGROUPE15</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Type de distributeur" ID="MCYTA62_01">
+      <ParentGroup>MCGROUPE20</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA62_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA62_01|({var:Dossier}.XRMW1TSP02).(YTA62_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA62_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_24</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA62_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_N° Distributeur" ID="MCYTA73_01">
+      <ParentGroup>MCGROUPE20</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA73_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA73_01|({var:Dossier}.XRMW1TSP02).(YTA73_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA73_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA73_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Date revision distributeur" ID="MCYTL18_01">
+      <ParentGroup>MCGROUPE20</ParentGroup>
+      <FieldType>3</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>12</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTL18_0</SQLName>
+      <FormulaText>
+        <FormulaByName>ExtraitDate ( [TCYTL18_01|({var:Dossier}.XRMW1TSP02).(YTL18_0)] )</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>ExtraitDate ( [TCYTL18_01] )</Formula>
+      </FormulaText>
+      <FieldCalcul>1</FieldCalcul>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+    </Field>
+    <Field Name="Wag_Code Type de distributeur secondaire" ID="MCYTL14_01">
+      <ParentGroup>MCGROUPE20</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTL14_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTL14_01|({var:Dossier}.XRMW1TSP02).(YTL14_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTL14_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_25</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTL14_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_N° Distributeur secondaire" ID="MCYTB40_01">
+      <ParentGroup>MCGROUPE20</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTB40_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTB40_01|({var:Dossier}.XRMW1TSP02).(YTB40_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTB40_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTB40_01</SourceFieldId>
+    </Field>
+    <GroupField Name="FREIN A MAIN" ID="MCGROUPE21">
+      <ParentGroup>MCGROUPE15</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Type de frein à main" ID="MCYTA61_01">
+      <ParentGroup>MCGROUPE21</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA61_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA61_01|({var:Dossier}.XRMW1TSP02).(YTA61_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA61_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_26</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA61_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Masse freinée du frein à main (t)" ID="MCYTA74_01">
+      <ParentGroup>MCGROUPE21</ParentGroup>
+      <FieldType>2</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>18</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA74_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA74_01|({var:Dossier}.XRMW1TSP02).(YTA74_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA74_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA74_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Effort de retenue (Kn)" ID="MCYTA75_01">
+      <ParentGroup>MCGROUPE21</ParentGroup>
+      <FieldType>2</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>18</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA75_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA75_01|({var:Dossier}.XRMW1TSP02).(YTA75_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA75_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA75_01</SourceFieldId>
+    </Field>
+    <GroupField Name="FREIN PNEUMATIQUE" ID="MCGROUPE22">
+      <ParentGroup>MCGROUPE15</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Masse freinée à vide" ID="MCYTA70_01">
+      <ParentGroup>MCGROUPE22</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA70_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA70_01|({var:Dossier}.XRMW1TSP02).(YTA70_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA70_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA70_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Masse freinée en charge" ID="MCYTA71_01">
+      <ParentGroup>MCGROUPE22</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA71_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA71_01|({var:Dossier}.XRMW1TSP02).(YTA71_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA71_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA71_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Masse freinée changement de régime" ID="MCYTA72_01">
+      <ParentGroup>MCGROUPE22</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA72_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA72_01|({var:Dossier}.XRMW1TSP02).(YTA72_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA72_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA72_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Vide charge" ID="MCYTA64_01">
+      <ParentGroup>MCGROUPE22</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA64_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA64_01|({var:Dossier}.XRMW1TSP02).(YTA64_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA64_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_27</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA64_01</SourceFieldId>
+    </Field>
+    <GroupField Name="BOGIES" ID="MCGROUPE16">
+      <ParentGroup>MCGROUPE14</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code Type de bogie" ID="MCYTA47_01">
+      <ParentGroup>MCGROUPE16</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA47_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA47_01|({var:Dossier}.XRMW1TSP03).(YTA47_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA47_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_28</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP03</SourceTableAlias>
+      <SourceFieldId>TCYTA47_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Code Suspension" ID="MCYTA48_01">
+      <ParentGroup>MCGROUPE16</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA48_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTA48_01|({var:Dossier}.XRMW1TSP08).(YTA48_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA48_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_29</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP08</SourceTableAlias>
+      <SourceFieldId>TCYTA48_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Empattement bogie" ID="MCN01_01">
+      <ParentGroup>MCGROUPE16</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>N01_0</SQLName>
+      <Description>Le champ YTA56 provient de la table YATABDIV  champ N01</Description>
+      <FormulaText>
+        <FormulaByName>[TCN01_01|({var:Dossier}.YATABDIV).(N01_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCN01_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.YATABDIV</SourceTableAlias>
+      <SourceFieldId>TCN01_01</SourceFieldId>
+    </Field>
+    <GroupField Name="POIDS ET DIMENSIONS" ID="MCGROUPE17">
+      <ParentGroup>MCGROUPE14</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Tare" ID="MCYTA16_01">
+      <ParentGroup>MCGROUPE17</ParentGroup>
+      <FieldType>2</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>3</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA16_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA16_01|({var:Dossier}.XRMW1TSP01).(YTA16_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA16_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTA16_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Inscription courbe" ID="MCYTA45_01">
+      <ParentGroup>MCGROUPE17</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA45_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA45_01|({var:Dossier}.XRMW1TSP01).(YTA45_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA45_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTA45_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Longueur hors tout" ID="MCYTA42_01">
+      <ParentGroup>MCGROUPE17</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA42_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA42_01|({var:Dossier}.XRMW1TSP01).(YTA42_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA42_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTA42_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Longueur de pesage" ID="MCYTA43_01">
+      <ParentGroup>MCGROUPE17</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA43_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA43_01|({var:Dossier}.XRMW1TSP01).(YTA43_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA43_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTA43_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Décal axe citerne" ID="MCYTA55_01">
+      <ParentGroup>MCGROUPE17</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA55_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA55_01|({var:Dossier}.XRMW1TSP02).(YTA55_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA55_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP02</SourceTableAlias>
+      <SourceFieldId>TCYTA55_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Empattement châssis" ID="MCYTA44_01">
+      <ParentGroup>MCGROUPE17</ParentGroup>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>2</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTA44_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCYTA44_01|({var:Dossier}.XRMW1TSP01).(YTA44_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTA44_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTA44_01</SourceFieldId>
+    </Field>
+    <GroupField Name="INTEROPERABILITE" ID="MCGROUPE18">
+      <ParentGroup>MCGROUPE14</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Gabarit" ID="MCYTL15_01">
+      <ParentGroup>MCGROUPE18</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YTL15_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCYTL15_01|({var:Dossier}.XRMW1TSP01).(YTL15_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYTL15_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_30</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCYTL15_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Aptitude à l'interopérabilité" ID="MCXAIO_01">
+      <ParentGroup>MCGROUPE18</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>XAIO_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCXAIO_01|({var:Dossier}.XRMW1TSP01).(XAIO_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCXAIO_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_31</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMW1TSP01</SourceTableAlias>
+      <SourceFieldId>TCXAIO_01</SourceFieldId>
+    </Field>
+    <GroupField Name="SUIVI WAGON" ID="MCGROUPE23">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Prochaine opération périodique" ID="MCDATENEXTREV_01">
+      <ParentGroup>MCGROUPE23</ParentGroup>
+      <FieldType>3</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>12</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>DATENEXTREV_0</SQLName>
+      <FormulaText>
+        <FormulaByName>ExtraitDate ( [TCDATENEXTREV_01|({var:Dossier}.WXRMWPRGDAT).(DATENEXTREV_0)] )</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>ExtraitDate ( [TCDATENEXTREV_01] )</Formula>
+      </FormulaText>
+      <FieldCalcul>1</FieldCalcul>
+      <SourceTableAlias>{var:Dossier}.WXRMWPRGDAT</SourceTableAlias>
+    </Field>
+    <GroupField Name="MAINTENANCE PREVENTIVE" ID="MCGROUPE24">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="N° Plan maintenance" ID="MCYMPNUM_01">
+      <ParentGroup>MCGROUPE24</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YMPNUM_0</SQLName>
+      <Size>12</Size>
+      <FormulaText>
+        <FormulaByName>[TCYMPNUM_01|({var:Dossier}.XRMWMPL).(YMPNUM_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYMPNUM_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_32</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMPL</SourceTableAlias>
+      <SourceFieldId>TCYMPNUM_01</SourceFieldId>
+    </Field>
+    <Field Name="Libellé Plan de maintenance" ID="MCYMPLIB_01">
+      <ParentGroup>MCGROUPE24</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>YMPLIB_0</SQLName>
+      <Size>100</Size>
+      <FormulaText>
+        <FormulaByName>[TCYMPLIB_01|({var:Dossier}.XRMWMPL).(YMPLIB_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCYMPLIB_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMPL</SourceTableAlias>
+      <SourceFieldId>TCYMPLIB_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_Parcours moyen annuel" ID="MCXPMA_01">
+      <ParentGroup>MCGROUPE24</ParentGroup>
+      <FieldType>2</FieldType>
+      <FieldMask>
+        <DisplayMaskKind>3</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>XPMA_0</SQLName>
+      <FormulaText>
+        <FormulaByName>[TCXPMA_01|({var:Dossier}.XRMWMACMIL01).(XPMA_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCXPMA_01]</Formula>
+      </FormulaText>
+      <SourceTableAlias>{var:Dossier}.XRMWMACMIL01</SourceTableAlias>
+      <SourceFieldId>TCXPMA_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_code retour PMA" ID="MCXLOG_01">
+      <ParentGroup>MCGROUPE24</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>XLOG_0</SQLName>
+      <Size>7</Size>
+      <FormulaText>
+        <FormulaByName>[TCXLOG_01|({var:Dossier}.XRMWMACMIL01).(XLOG_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCXLOG_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_33</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWMACMIL01</SourceTableAlias>
+      <SourceFieldId>TCXLOG_01</SourceFieldId>
+    </Field>
+    <GroupField Name="COMMERCIAL" ID="MCGROUPE25">
+      <ParentGroup>MCGROUPE11</ParentGroup>
+      <IsGroupe>1</IsGroupe>
+    </GroupField>
+    <Field Name="Wag_Code client utilisateur" ID="MCBPCUSR_01">
+      <ParentGroup>MCGROUPE25</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>BPCUSR_0</SQLName>
+      <Size>15</Size>
+      <FormulaText>
+        <FormulaByName>[TCBPCUSR_01|({var:Dossier}.XRMWCONMAC).(BPCUSR_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCBPCUSR_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_34</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWCONMAC</SourceTableAlias>
+      <SourceFieldId>TCBPCUSR_01</SourceFieldId>
+    </Field>
+    <Field Name="Wag_contrat avenant" ID="MCCONREV_01">
+      <ParentGroup>MCGROUPE25</ParentGroup>
+      <FieldType>0</FieldType>
+      <Qualif>0</Qualif>
+      <FieldMask>
+        <DisplayMaskKind>1</DisplayMaskKind>
+      </FieldMask>
+      <SQLName>CONREV_0</SQLName>
+      <Size>20</Size>
+      <FormulaText>
+        <FormulaByName>[TCCONREV_01|({var:Dossier}.XRMWCONMAC).(CONREV_0)]</FormulaByName>
+        <LangueFormule>0</LangueFormule>
+        <Formula>[TCCONREV_01]</Formula>
+      </FormulaText>
+      <IsIndex>1</IsIndex>
+      <IndexName>PARCWAGON_V12_35</IndexName>
+      <SourceTableAlias>{var:Dossier}.XRMWCONMAC</SourceTableAlias>
+      <SourceFieldId>TCCONREV_01</SourceFieldId>
+    </Field>
+  </DestFields>
+  <WhereFilter>
+    <FilterGroup ID="Root">
+      <FilterGroup>FilterGroup</FilterGroup>
+    </FilterGroup>
+    <Filter ID="MFFILTRE1">
+      <ParentGroup>Root</ParentGroup>
+      <Operator>14</Operator>
+      <FilterType>6</FilterType>
+      <FormulaByName>Non(EstVide([TCMACNUM_01|({var:Dossier}.XRMWMACPAR00).(MACNUM_0)]))</FormulaByName>
+      <LangueFormule>0</LangueFormule>
+      <Formula>Non(EstVide([TCMACNUM_01]))</Formula>
+      <FieldAutomatized>TCMACNUM_01</FieldAutomatized>
+    </Filter>
+  </WhereFilter>
+  <HavingFilter>
+    <FilterGroup ID="Root">
+      <FilterGroup>FilterGroup</FilterGroup>
+    </FilterGroup>
+  </HavingFilter>
+</Model>
